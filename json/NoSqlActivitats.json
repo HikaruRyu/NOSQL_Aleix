@@ -1,0 +1,347 @@
+[
+    {
+        "entrenemForça": [
+            {
+                "id": 1,
+                "muscul": "Pectoral",
+                "pectoral": [
+                    {
+                        "excercici": 1,
+                        "nom": "Press Pit",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/pectoral/pressPit.jpg",
+                                "altImg": "fotoPressPit",
+                                "descripcio": "Estira't en un banc pla amb una barra, baixa-la fins al pit i torna a pujar-la completament."
+                            }   
+                        ]
+                    },
+
+                    {
+                        "excercici": 2,
+                        "nom": "Press Inclinat",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/pectoral/pressInclinat.jpg",
+                                "altImg": "fotoPressInclinat",
+                                "descripcio": "Col·loca't en un banc inclinat i empenta la barra cap amunt des del pit superior."
+                            }   
+                        ]
+                    },
+
+                    {
+                        "excercici": 3,
+                        "nom": "Press Declinat",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/pectoral/pressDeclinat.jpg",
+                                "altImg": "fotoPressDeclinat",
+                                "descripcio": "Utilitza un banc declinat i mou la barra cap amunt des del pit inferior."
+                            }   
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "muscul": "Biceps",
+                "biceps": [
+                    {
+                        "excercici": 1,
+                        "nom": "Curl Barra",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/biceps/curlBarra.jpg",
+                                "altImg": "fotoCurlBarra",
+                                "descripcio": "Agafa la barra amb les mans a l'amplada de les espatlles i flexiona els colzes per aixecar-la."
+                            }   
+                        ]
+                    },
+
+                    {
+                        "excercici": 2,
+                        "nom": "Curl Martell",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/biceps/curlMartell.jpg",
+                                "altImg": "fotoCurlMartell",
+                                "descripcio": "Mantén els palmells paral·lels mentre flexiones els colzes amb les manuelles."
+                            }   
+                        ]
+                    },
+
+                    {
+                        "excercici": 3,
+                        "nom": "Curl Concentrat",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/biceps/curlConcentrat.jpg",
+                                "altImg": "fotoCurlConcentrat",
+                                "descripcio": "Asseu-te i recolza el colze a la cuixa per a un control total del moviment."
+                            }   
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "muscul": "Triceps",
+                "triceps": [
+                    {
+                        "excercici": 1,
+                        "nom": "Press Frances",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/triceps/pressFrances.jpg",
+                                "altImg": "fotoPressFrances",
+                                "descripcio": "Estira't amb una barra i baixa-la darrere del cap abans de tornar-la amunt."
+                            }
+                        ]
+                    },
+                    {
+                        "excercici": 2,
+                        "nom": "Press Dips",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/triceps/pressDips.jpg",
+                                "altImg": "fotoPressDips",
+                                "descripcio": "Col·loca't entre dues barres paral·leles i baixa el cos flexionant els colzes."
+                            }
+                        ]
+                    },
+
+                    {
+                        "excercici": 3,
+                        "nom": "Press Triceps",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/triceps/pressTriceps.jpg",
+                                "altImg": "fotoPressTriceps",
+                                "descripcio": "Utilitza una barra o manuella i empenta cap avall des d'una politja alta."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "muscul": "Esquena",
+                "esquena": [
+                    {
+                        "excercici": 1,
+                        "nom": "Pull-ups",
+                        "informacio": [
+                            {
+                                "numSeries": 3,
+                                "repeticioMin": "6",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "120",
+                                "foto": "/assets/esquena/pullUps.jpg",
+                                "altImg": "fotoPullUps",
+                                "descripcio": "Aixeca el cos cap amunt fins que la barbeta superi la barra."
+                            }
+                        ]
+                    },
+                    {
+                        "excercici": 2,
+                        "nom": "Rem amb Barra",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/esquena/remBarra.jpg",
+                                "altImg": "fotoRemBarra",
+                                "descripcio": "Inclina't lleugerament i estira la barra cap al teu abdomen."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "muscul": "Abdomen",
+                "abdomen": [
+                    {
+                        "excercici": 1,
+                        "nom": "Crunch",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "15",
+                                "repeticioMax": "20",
+                                "tempsRepeticio": "15",
+                                "tempsDescans": "60",
+                                "foto": "/assets/abdomen/crunch.jpg",
+                                "altImg": "fotoCrunch",
+                                "descripcio": "Estira't amb els genolls flexionats i aixeca el tronc cap a les cames."
+                            }
+                        ]
+                    },
+                    {
+                        "excercici": 2,
+                        "nom": "Planxa",
+                        "informacio": [
+                            {
+                                "numSeries": 3,
+                                "repeticioMin": "30",
+                                "repeticioMax": "60",
+                                "tempsRepeticio": "-",
+                                "tempsDescans": "90",
+                                "foto": "/assets/abdomen/planxa.jpg",
+                                "altImg": "fotoPlanxa",
+                                "descripcio": "Mantén el cos recte recolzant-te en els colzes i les puntes dels peus."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "muscul": "Hombros",
+                "hombros": [
+                    {
+                        "excercici": 1,
+                        "nom": "Press Militar",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/hombros/pressMilitar.jpg",
+                                "altImg": "fotoPressMilitar",
+                                "descripcio": "Empenta la barra cap amunt des de la part superior del pit."
+                            }
+                        ]
+                    },
+                    {
+                        "excercici": 2,
+                        "nom": "Elevacions Laterals",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "10",
+                                "repeticioMax": "15",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "90",
+                                "foto": "/assets/hombros/elevacionsLaterals.jpg",
+                                "altImg": "fotoElevacionsLaterals",
+                                "descripcio": "Amb les manuelles, aixeca els braços lateralment fins a l'altura de les espatlles."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "muscul": "Pantorrillas",
+                "pantorrillas": [
+                    {
+                        "excercici": 1,
+                        "nom": "Elevacions de Pantorrilles",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "15",
+                                "repeticioMax": "20",
+                                "tempsRepeticio": "15",
+                                "tempsDescans": "90",
+                                "foto": "/assets/pantorrillas/elevacionsPantorrilles.jpg",
+                                "altImg": "fotoElevacionsPantorrilles",
+                                "descripcio": "Eleva els talons fins quedar-te sobre les puntes dels peus, mantenint la tensió a les pantorrilles."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "muscul": "Cames",
+                "cames": [
+                    {
+                        "excercici": 1,
+                        "nom": "Sentadilla",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/cames/sentadilla.jpg",
+                                "altImg": "fotoSentadilla",
+                                "descripcio": "Col·loca una barra sobre les espatlles, baixa mantenint l'esquena recta fins que els malucs estiguin per sota dels genolls i torna a pujar."
+                            }
+                        ]
+                    },
+                    {
+                        "excercici": 2,
+                        "nom": "Pes Mort",
+                        "informacio": [
+                            {
+                                "numSeries": 4,
+                                "repeticioMin": "8",
+                                "repeticioMax": "12",
+                                "tempsRepeticio": "30",
+                                "tempsDescans": "180",
+                                "foto": "/assets/cames/pesMort.jpg",
+                                "altImg": "fotoPesMort",
+                                "descripcio": "Amb l'esquena recta, baixa la barra cap als turmells flexionant lleugerament els genolls i torna a la posició inicial."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
