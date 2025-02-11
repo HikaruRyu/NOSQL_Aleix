@@ -55,11 +55,11 @@ class View {
     }
 
     private void inserirEntrenament() {
-        System.out.print("Introdueix la data (YYYY-MM-DD): ");
-        String data = scanner.nextLine();
-
         System.out.print("Introdueix el grup muscular: ");
         String muscul = scanner.nextLine();
+    	
+        System.out.print("Introdueix la data (YYYY-MM-DD): ");
+        String data = scanner.nextLine();
 
         List<Document> exercicis = new ArrayList<>();
         System.out.print("Quants exercicis vols afegir? ");
@@ -69,11 +69,53 @@ class View {
         for (int i = 0; i < numExercicis; i++) {
             System.out.print("Nom de l'exercici " + (i + 1) + ": ");
             String nom = scanner.nextLine();
-            Document exercici = new Document("nom", nom);
+
+            Document exercici = new Document("excercici", i + 1) 
+                                    .append("nom", nom);
+
+            List<Document> informacio = new ArrayList<>();
+            System.out.print("Introdueix el nombre de sèries per a aquest exercici: ");
+            int numSeries = scanner.nextInt();
+            scanner.nextLine();
+
+            System.out.print("Introdueix les repeticions mínimes per a aquest exercici: ");
+            String repeticioMin = scanner.nextLine();
+
+            System.out.print("Introdueix les repeticions màximes per a aquest exercici: ");
+            String repeticioMax = scanner.nextLine();
+
+            System.out.print("Introdueix el temps per repetició: ");
+            String tempsRepeticio = scanner.nextLine();
+
+            System.out.print("Introdueix el temps de descans: ");
+            String tempsDescans = scanner.nextLine();
+            
+            System.out.print("Introdueix la foto (path): ");
+            String foto = scanner.nextLine();
+
+            System.out.println("Introdueix el nom de la imatge");
+            String altImg = scanner.nextLine();
+
+            
+            System.out.print("Introdueix la descripció: ");
+            String descripcio = scanner.nextLine();
+
+            Document info = new Document("numSeries", numSeries)
+                            .append("repeticioMin", repeticioMin)
+                            .append("repeticioMax", repeticioMax)
+                            .append("tempsRepeticio", tempsRepeticio)
+                            .append("tempsDescans", tempsDescans)
+                            .append("foto", foto)
+                            .append("altImg", altImg)
+                            .append("descripcio", descripcio);
+
+            informacio.add(info);
+
+            exercici.append("informacio", informacio); 
             exercicis.add(exercici);
         }
 
-        Entrenament entrenament = new Entrenament(data, muscul, exercicis);
+        Entrenament entrenament = new Entrenament(muscul, data, exercicis);
         model.inserir(entrenament);
     }
 

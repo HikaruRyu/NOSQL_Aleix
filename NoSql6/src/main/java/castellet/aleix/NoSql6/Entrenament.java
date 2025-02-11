@@ -18,8 +18,8 @@ class Entrenament {
     
     public Document toDocument() {
 
-    	Document doc = new Document("data", data)
-                            .append("muscul", muscul)
+    	Document doc = new Document("muscul", muscul)
+    						.append("data", data)
                             .append("exercicis", exercicis);
         return doc; 
     }
@@ -27,8 +27,8 @@ class Entrenament {
     @Override
     public String toString() {
         return "Entrenament{" +
-                "data='" + data + '\'' +
                 ", muscul='" + muscul + '\'' +
+                "data='" + data + '\'' +
                 ", exercicis=" + exercicis +
                 '}';
     }

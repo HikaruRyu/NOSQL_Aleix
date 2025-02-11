@@ -43,8 +43,8 @@ class Model {
 
         FindIterable<Document> documents = collection.find(
             Filters.and(
-                Filters.gte("data", dateFormat.format(dataInici)), // data >= dataInici
-                Filters.lte("data", dateFormat.format(dataFi)) // data <= dataFi
+                Filters.gte("data", dateFormat.format(dataInici)), 
+                Filters.lte("data", dateFormat.format(dataFi))
             )
         );
 
