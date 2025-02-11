@@ -43,7 +43,6 @@ class View {
         }
     }
 
-    // 🔹 Mostrar tots els entrenaments
     private void mostrarEntrenaments() {
         List<Document> entrenaments = model.obtenirTots();
         if (entrenaments.isEmpty()) {
@@ -55,7 +54,6 @@ class View {
         }
     }
 
-    // 🔹 Afegir un entrenament nou
     private void inserirEntrenament() {
         System.out.print("Introdueix la data (YYYY-MM-DD): ");
         String data = scanner.nextLine();
@@ -79,7 +77,6 @@ class View {
         model.inserir(entrenament);
     }
 
-    // 🔹 Cercar entrenaments per rang de dates
     private void mostrarEntrenamentsPerData() {
         try {
             System.out.print("Introdueix la data d'inici (YYYY-MM-DD): ");

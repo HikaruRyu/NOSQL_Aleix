@@ -15,7 +15,6 @@ class Model {
     private MongoDatabase database;
     private MongoCollection<Document> collection;
 
-    // Inicialització de SimpleDateFormat
     private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     public Model() {
@@ -33,18 +32,15 @@ class Model {
         return entrenaments;
     }
 
-    // 🔹 Mètode per inserir un entrenament
     public void inserir(Entrenament entrenament) {
         Document doc = entrenament.toDocument();
         collection.insertOne(doc);
         System.out.println("Entrenament inserit correctament!");
     }
     
-    // 🔹 Mètode per obtenir entrenaments en un rang de dates
     public List<Document> obtenirPerData(Date dataInici, Date dataFi) {
         List<Document> entrenaments = new ArrayList<>();
 
-        // Filtrant per dates
         FindIterable<Document> documents = collection.find(
             Filters.and(
                 Filters.gte("data", dateFormat.format(dataInici)), // data >= dataInici

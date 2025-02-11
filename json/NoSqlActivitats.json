@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "muscul": "Pectoral",
         "data": "2021-05-01",
         "exercicis": [
@@ -55,7 +54,6 @@
         ]
     },
     {
-        "id": 2,
         "muscul": "Biceps",
         "data": "2022-06-01",
         "exercicis": [
@@ -110,7 +108,6 @@
         ]
     },
     {
-        "id": 3,
         "muscul": "Triceps",
         "data": "2024-04-11",
         "exercicis": [
@@ -165,7 +162,6 @@
         ]
     },
     {
-        "id": 4,
         "muscul": "Esquena",
         "data": "2001-05-21",
         "exercicis": [
@@ -204,7 +200,6 @@
         ]
     },
     {
-        "id": 5,
         "muscul": "Abdomen",
         "data": "2021-03-30",
         "exercicis": [
@@ -243,7 +238,6 @@
         ]
     },
     {
-        "id": 6,
         "muscul": "Hombros",
         "data": "2021-04-04",
         "exercicis": [
@@ -282,7 +276,6 @@
         ]
     },
     {
-        "id": 7,
         "muscul": "Pantorrillas",
         "data": "2022-05-22",
         "exercicis": [
@@ -305,7 +298,6 @@
         ]
     },
     {
-        "id": 8,
         "muscul": "Cames",
         "data": "2023-05-11",
         "exercicis": [
