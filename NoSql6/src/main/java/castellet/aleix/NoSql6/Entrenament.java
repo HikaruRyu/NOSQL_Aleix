@@ -9,9 +9,9 @@ class Entrenament {
     private List<Document> exercicis; 
 
     
-    public Entrenament(String data, String muscul, List<Document> exercicis) {
-        this.data = data;
-        this.muscul = muscul;
+    public Entrenament(String muscul, String data, List<Document> exercicis) {
+        this.data = muscul;
+        this.muscul = data;
         this.exercicis = exercicis;
     }
 
